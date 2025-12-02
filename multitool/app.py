@@ -75,7 +75,7 @@ def add_tool(tools):
         input("Press Enter to continue...")
         return
 
-    filename = input("Script filename (relative to this script): ").strip()
+    filename = "tools/"+input("Script file name (including the file extension) ").strip() #depends on what the name of the tools directory is named 
     if not filename:
         print("Filename cannot be empty.")
         input("Press Enter to continue...")
@@ -120,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
