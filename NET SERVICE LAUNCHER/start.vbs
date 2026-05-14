@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute "python.exe", """" & CreateObject("Scripting.FileSystemObject").GetAbsolutePathName("net_service_launcher.py") & """", "", "runas", 0
